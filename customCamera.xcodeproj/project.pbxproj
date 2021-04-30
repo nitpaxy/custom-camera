@@ -56,15 +56,47 @@
 		C76FDBCD263B0DB80079EA59 /* customCamera */ = {
 			isa = PBXGroup;
 			children = (
-				C76FDBCE263B0DB80079EA59 /* AppDelegate.swift */,
-				C76FDBD0263B0DB80079EA59 /* SceneDelegate.swift */,
-				C76FDBD2263B0DB80079EA59 /* ViewController.swift */,
-				C76FDBD4263B0DB80079EA59 /* Main.storyboard */,
-				C76FDBD7263B0DBF0079EA59 /* Assets.xcassets */,
-				C76FDBD9263B0DBF0079EA59 /* LaunchScreen.storyboard */,
+				C76FDC02263B9F9C0079EA59 /* Application */,
+				C76FDC05263B9FB70079EA59 /* Models */,
+				C76FDC04263B9FAE0079EA59 /* Views */,
+				C76FDC03263B9FA60079EA59 /* Controllers */,
 				C76FDBDC263B0DBF0079EA59 /* Info.plist */,
 			);
 			path = customCamera;
+			sourceTree = "<group>";
+		};
+		C76FDC02263B9F9C0079EA59 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C76FDBCE263B0DB80079EA59 /* AppDelegate.swift */,
+				C76FDBD0263B0DB80079EA59 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C76FDC03263B9FA60079EA59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C76FDBD2263B0DB80079EA59 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C76FDC04263B9FAE0079EA59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C76FDBD4263B0DB80079EA59 /* Main.storyboard */,
+				C76FDBD7263B0DBF0079EA59 /* Assets.xcassets */,
+				C76FDBD9263B0DBF0079EA59 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C76FDC05263B9FB70079EA59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
